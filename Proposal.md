@@ -4,7 +4,7 @@
 
 The objective of this project is to analyze electrophysiological recordings from the sciatic nerves of mice, focusing on the impact of ectopic clusters of voltage-gated sodium channels (NaCh) on conduction. My research investigates how these clusters, formed in hypomyelinated and demyelinated peripheral nervous system (PNS) models, may enhance conduction and mitigate conduction block. This tool is designed to automate the analysis of these recordings, enabling more efficient and accurate exploration of signal propagation dynamics under experimental conditions.
 
-- **Input Data**
+**Input Data**
 
 The input data is provided in an Excel file containing two sheets:
 
@@ -18,7 +18,7 @@ Each mouse has multiple columns corresponding to distinct parameters, such as si
 
 Information about experimental conditions and mouse groups.
 
-- **Analysis and Features**
+**Analysis and Features**
 
 - Signal Metrics Extraction:
 
@@ -42,13 +42,13 @@ Highlight trends and outliers in the data.
 
 Provide CSV output summarizing statistical analyses, including mean, standard deviation, and p-values.
 
-- **Output**
+**Output**
 
 Plots comparing signal duration and peak amplitude across mice and groups.
 
 CSV files summarizing key metrics and statistical comparisons.
 
-- **Future Improvements**
+**Future Improvements**
 
 Add support for additional electrophysiological metrics (e.g., latency, conduction velocity).
 
@@ -56,7 +56,7 @@ Interactive GUI for easier data exploration.
 
 Integration with machine learning models to predict conduction outcomes based on input parameters.
 
-- **Acknowledgment**
+**Acknowledgment**
 
 This project was developed as part of the Python programming course. [https://github.com/szabgab/wis-python-course-2024-11]
 
