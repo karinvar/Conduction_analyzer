@@ -58,7 +58,7 @@ Integration with machine learning models to predict conduction outcomes based on
 
 **Acknowledgment**
 
-This project was developed as part of the Python programming course. [https://github.com/szabgab/wis-python-course-2024-11]
+This project was developed as part of the [Python programming course](https://github.com/szabgab/wis-python-course-2024-11)
 
 By integrating this tool into research workflows, it will greatly streamline the analysis of electrophysiological recordings, enabling faster and more accurate insights into the beneficial effects of ectopic sodium channel clusters on conduction.
 
