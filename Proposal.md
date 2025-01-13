@@ -1,6 +1,6 @@
 # Conduction_analyzer Proposal
 
-- **Background and Motivation**
+**Background and Motivation**
 
 The objective of this project is to analyze electrophysiological recordings from the sciatic nerves of mice, focusing on the impact of ectopic clusters of voltage-gated sodium channels (NaCh) on conduction. My research investigates how these clusters, formed in hypomyelinated and demyelinated peripheral nervous system (PNS) models, may enhance conduction and mitigate conduction block. This tool is designed to automate the analysis of these recordings, enabling more efficient and accurate exploration of signal propagation dynamics under experimental conditions.
 
