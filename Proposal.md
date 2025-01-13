@@ -22,11 +22,9 @@ We get the peak amplitude control (from column B onwards, a column for each mous
 
 Calculate duration, peak amplitude, and other key signal characteristics for each recording.
 
-Compare these metrics across equivalent columns (parameters) between mice to identify differences.
+Compare these metrics across equivalent columns (different mice) to identify differences.
 
 - Group Comparisons:
-
-Utilize metadata from Sheet 2 to group recordings and perform statistical comparisons.
 
 Identify patterns that suggest differences in conduction efficiency due to experimental conditions.
 
