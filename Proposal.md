@@ -8,15 +8,13 @@ The objective of this project is to analyze electrophysiological recordings from
 
 The input data is provided in an Excel file containing two sheets:
 
-- Sheet 1: Raw Recordings
+- Sheet 1: Raw Recordings from Large Fibers
 
-Columns represent various parameters recorded for each mouse.
+We get the peak amplitude control (from column B onwards, a column for each mouse) in response to a corresponding current (column A) given in stimulation.
 
-Each mouse has multiple columns corresponding to distinct parameters, such as signal amplitude and duration.
+- Sheet 2: Raw Recordings from C Fibers
 
-- Sheet 2: Experimental Metadata
-
-Information about experimental conditions and mouse groups.
+We get the peak amplitude control (from column B onwards, a column for each mouse) in response to a corresponding duration of stimulus (column A) given.
 
 **Analysis and Features**
 
