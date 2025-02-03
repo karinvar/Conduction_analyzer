@@ -14,39 +14,37 @@ The input data is provided in an Excel file containing two sheets:
 
 - Sheet 1: Raw Recordings from Large Fibers
 
-We get the peak amplitude control (from column B onwards, a column for each mouse) in response to a corresponding current (column A) given in stimulation.
+  Each column (from column B onwards) represents a different mouse (e.g., Mouse #1 to Mouse #6). The corresponding current (column A) is given in stimulation.
 
 - Sheet 2: Raw Recordings from C Fibers
 
-We get the peak amplitude control (from column B onwards, a column for each mouse) in response to a corresponding duration of stimulus (column A) given.
+  Each column (from column B onwards) represents a different mouse (e.g., Mouse #1 to Mouse #6). The corresponding duration of stimulus (column A) is given.
 
 ## Analysis and Features
 
 - Signal Metrics Extraction:
 
-Calculate duration, peak amplitude, and other key signal characteristics for each recording.
-
-Compare these metrics across equivalent columns (different mice) to identify differences.
+  - Calculate duration, peak amplitude, and other key signal characteristics for each recording.
+  - Compare these metrics across equivalent columns (different mice) to identify differences.
 
 - Group Comparisons:
 
-Identify patterns that suggest differences in conduction efficiency due to experimental conditions.
+  - Identify patterns that suggest differences in conduction efficiency due to experimental conditions.
 
 - Visual Output:
 
-Generate plots comparing signal characteristics across mice and groups.
-
-Highlight trends and outliers in the data.
+  - Generate plots comparing signal characteristics across mice and groups.
+  - Highlight trends and outliers in the data.
 
 - Statistical Summaries:
 
-Provide CSV output summarizing statistical analyses, including mean, standard deviation, and p-values.
+  - Perform t-tests to compare conduction properties between mice and report p-values.
+  - Provide an Excel file (`analysis_results.xlsx`) summarizing statistical analyses, including mean, standard deviation, and p-values.
 
 ## Output
 
-Plots comparing signal duration and peak amplitude across mice and groups.
-
-CSV files summarizing key metrics and statistical comparisons.
+- Plots comparing signal duration and peak amplitude across mice and groups.
+- Excel file (`analysis_results.xlsx`) summarizing key metrics and statistical comparisons.
 
 ## Technical Instructions
 
@@ -67,7 +65,7 @@ CSV files summarizing key metrics and statistical comparisons.
 
 3. **Run the analysis tool:**
    ```bash
-   python analyze_data.py --input input_recordings.xlsx
+   python conduction_analyzer.py --input input_recordings.xlsx
    ```
 
 ### Dependencies
